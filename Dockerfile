@@ -20,6 +20,7 @@ RUN dnf makecache \
     sudo \
     which \
     python2-dnf \
+    git \
   && dnf clean all
 
 # Disable requiretty.
